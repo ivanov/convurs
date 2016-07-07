@@ -6,11 +6,14 @@
     <img src="{{ url_for('static', filename='convurs.jpg') }}">
     <hr>
     <form>
+      Name
+      <input type="text" name="name">
+      Message
       <input type="text" name="message">
       <input type="submit" value="post message">
     </form>
-    {% for message in message_list|reverse %}
-      <p>{{ message }}</p>
+    {% for name, message in message_list|reverse %}
+      <p><strong>{{ name }}</strong>: {{ message }}</p>
     {% endfor %}
   </body>
 </html>
