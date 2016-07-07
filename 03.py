@@ -18,9 +18,9 @@ import flask
 app = flask.Flask("supersnarq")
 
 @app.route('/')
-def snarqy_frontpage():
+def convurs_frontpage():
     print "hello world"
 
-snarqy_frontpage()
+convurs_frontpage()
 
 # maybe put a  <strong> </strong> around world?

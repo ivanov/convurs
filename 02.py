@@ -1,4 +1,4 @@
-def snarqy_frontpage():
+def convurs_frontpage():
     print "hello world"
 
 snarqy_frontpage()

@@ -5,7 +5,7 @@ app = flask.Flask("supersnarq")
 storage = []  # an empty list
 
 @app.route('/')
-def snarqy_frontpage():
+def convurs_frontpage():
     return "hello world"
 
 @app.route('/say/<msg>')
@@ -24,4 +24,3 @@ def user_say(username, msg='Cat got your tongue?'):
 
 if __name__ == '__main__':
     app.run()
-

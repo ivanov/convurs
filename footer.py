@@ -9,7 +9,7 @@ this always appears as the last thing on our page
 """
 
 @app.route('/')
-def snarqy_frontpage():
+def convurs_frontpage():
     return "hello world"
 
 @app.route('/say/<msg>')

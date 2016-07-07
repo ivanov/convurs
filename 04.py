@@ -4,7 +4,7 @@ import flask
 app = flask.Flask("supersnarq")
 
 @app.route('/')
-def snarqy_frontpage():
+def convurs_frontpage():
     print "hello world"
 
 app.run()

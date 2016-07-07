@@ -5,7 +5,7 @@ app = flask.Flask("supersnarq")
 storage = []  # an empty list
 
 @app.route('/')
-def snarqy_frontpage():
+def convurs_frontpage():
     return "hello world"
 
 @app.route('/say/<msg>')

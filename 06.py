@@ -3,7 +3,7 @@ import flask
 app = flask.Flask("supersnarq")
 
 @app.route('/')
-def snarqy_frontpage():
+def convurs_frontpage():
     return "hello world"
 
 if __name__ == '__main__':
@@ -17,7 +17,7 @@ if __name__ == '__main__':
 # let's write a basic test test_06.py
 #
 # show python snarq.py vs python and import snarq at the command line
-# 
+#
 # git commit
 #
 # write that test test_06.py

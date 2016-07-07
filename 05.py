@@ -3,7 +3,7 @@ import flask
 app = flask.Flask("supersnarq")
 
 @app.route('/')
-def snarqy_frontpage():
+def convurs_frontpage():
     return "hello world"
 
 app.run()
