@@ -3,6 +3,14 @@
     <title>Convurs</title>
   </head>
   <body>
-    <img src="{{ url_for('static', filename='convurs.jpg') }}" alt="Convurs"/>
+    <img src="{{ url_for('static', filename='convurs.jpg') }}">
+    <hr>
+    <form>
+      <input type="text" name="message">
+      <input type="submit" value="post message">
+    </form>
+    {% for message in message_list %}
+      <p>{{ message }}</p>
+    {% endfor %}
   </body>
 </html>

@@ -2,25 +2,14 @@ import flask
 
 app = flask.Flask("convurs")
 
-storage = []  # an empty list
+message_list = []
 
 @app.route('/')
 def chat():
-    return flask.render_template("chat.html")
-
-@app.route('/say/<msg>')
-@app.route('/say')
-def say_message(msg='Cat got your tongue?'):
-    attributed_msg = "<div><b>" + "anonyMouse" + "</b>: " + msg + "</div>"
-    storage.append(attributed_msg)
-    return "".join(storage)
-
-@app.route('/login/<username>/<msg>')
-@app.route('/login/<username>')
-def user_say(username, msg='Cat got your tongue?'):
-    attributed_msg = "<div><b>" + username + "</b>: " + msg + "</div>"
-    storage.append(attributed_msg)
-    return "".join(storage)
+    message = flask.request.args.get('message')
+    if message is not None:
+        message_list.append(message)
+    return flask.render_template("chat.html", message_list=message_list)
 
 if __name__ == '__main__':
     app.run()
