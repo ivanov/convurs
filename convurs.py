@@ -5,8 +5,8 @@ app = flask.Flask("convurs")
 storage = []  # an empty list
 
 @app.route('/')
-def convurs_frontpage():
-    return "hello world"
+def chat():
+    return flask.render_template("chat.html")
 
 @app.route('/say/<msg>')
 @app.route('/say')
