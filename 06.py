@@ -1,6 +1,6 @@
 import flask
 
-app = flask.Flask("supersnarq")
+app = flask.Flask("convurs")
 
 @app.route('/')
 def convurs_frontpage():
@@ -10,13 +10,13 @@ if __name__ == '__main__':
     app.run()
 
 
-# this is just a pythonism - if we want to reuse parts of snarq elsewhere (in
+# this is just a pythonism - if we want to reuse parts of convurs elsewhere (in
 # our testing code, for example,
 #
-# allows us to `import snarq` or `from snarq import app`,
+# allows us to `import convurs` or `from convurs import app`,
 # let's write a basic test test_06.py
 #
-# show python snarq.py vs python and import snarq at the command line
+# show python convurs.py vs python and import convurs at the command line
 #
 # git commit
 #

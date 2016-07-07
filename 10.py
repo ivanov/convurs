@@ -4,16 +4,16 @@
 # I've taken care of getting a subdomain up on a server that I have shared
 # hosting on. pirsquared.org
 #
-# I've made a user snarq - and made it possible for me to log into the server
+# I've made a user convurs - and made it possible for me to log into the server
 # without having to type in my password (ssh keys are your friend)
 #
 #
 # import sys
 # sys.path.insert(0, '<your_local_path>/lib/python2.6/site-packages'))
 #
-# virtualenv .snarq-env
+# virtualenv .convurs-env
 #
-# source .snarq-env/bin/activate
+# source .convurs-env/bin/activate
 #
 #
 # # pip install flup

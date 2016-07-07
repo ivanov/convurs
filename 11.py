@@ -1,6 +1,6 @@
 # put this up on github?
 #
-# es-cat-snarq
+# es-cat-convurs
 #
 # add a README
 #

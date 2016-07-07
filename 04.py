@@ -1,7 +1,7 @@
 # pull up flask docs / webpage
 import flask
 
-app = flask.Flask("supersnarq")
+app = flask.Flask("convurs")
 
 @app.route('/')
 def convurs_frontpage():

@@ -7,15 +7,15 @@
 # - web.py
 #
 #
-# We're going to use Flask - mkvirtualenv snarq-env
+# We're going to use Flask - mkvirtualenv convurs-env
 #
-# workon snarq
+# workon convurs
 #
 # pip install flask
 
 import flask
 
-app = flask.Flask("supersnarq")
+app = flask.Flask("convurs")
 
 @app.route('/')
 def convurs_frontpage():

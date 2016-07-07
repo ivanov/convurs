@@ -1,4 +1,4 @@
-from snarq import app
+from convurs import app
 
 app.testing = True
 

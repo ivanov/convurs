@@ -1,7 +1,7 @@
 def convurs_frontpage():
     print "hello world"
 
-snarqy_frontpage()
+convurs_frontpage()
 
 #
 # git commit

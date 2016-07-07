@@ -1,6 +1,6 @@
 import flask
 
-app = flask.Flask("supersnarq")
+app = flask.Flask("convurs")
 
 storage = []  # an empty list
 

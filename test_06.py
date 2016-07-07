@@ -1,6 +1,6 @@
 # got this code from flask documentation
 
-from snarq import app
+from convurs import app
 
 app.testing = True
 

@@ -6,7 +6,7 @@
 #
 #
 #   - initialize git repository (justify - keep track of our work)
-#       git init snarq; cd snarq
+#       git init convurs; cd convurs
 #   - write this file
 #   - source vimrc
 
